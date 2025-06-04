@@ -41,11 +41,11 @@ LeakPass Hunter is a project aimed at detecting sensitive data, especially passw
 
 *Hata Odaklı İnceleme: Geliştiricilerin hatalı parola işleme durumlarını analiz ederek, gerçek uygulamalardaki güvenlik sorunlarının bulunmasını kolaylaştırır.*
 
-#Team Members and Task Distribution / Ekip Üyeleri ve Görev Dağılımı
+# Team Members and Task Distribution / Ekip Üyeleri ve Görev Dağılımı
 
-*2320191087 Ebru Gündoğdu
+* 2320191087 Ebru Gündoğdu
 
-*2320191032 İrem Rabia Uzun 
+* 2320191032 İrem Rabia Uzun 
 
 
 # Roadmap / Yol Haritası
@@ -59,34 +59,34 @@ See the ROADMAP.md file to follow the journey.
 | **RegEx and Heuristic Password Detection**<br>RegEx ve Heuristik Parola Tanıma | [regex\_heuristic\_password\_detection.md](researchs/regex_heuristic_password_detection.md) | RegEx patterns and heuristic methods used to extract password-like strings from logs.<br>Parola benzeri string'leri loglardan ayıklamak için kullanılan RegEx desenleri ve heuristik yaklaşımlar.                               |
 
 # Installation / Kurulum
-To download and run the project on your computer, follow the steps below:
+To download and run the project on your computer, follow the steps below:  
 *Projeyi bilgisayarınıza indirip çalıştırmak için aşağıdaki adımları izleyin*
 
-1. Clone the Repository / Depoyu Klonlayın
+**1. Clone the Repository / Depoyu Klonlayın**
 
 ```bash
 git clone https://github.com/ebrugundogduu/LeakPass-Hunter.git
 cd LeakPassHunter
 ```
 
-2. Set Up Virtual Environment / Sanal Ortam Kurulumu
+**2. Set Up Virtual Environment / Sanal Ortam Kurulumu**
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows için: venv\Scripts\activate
 ```
 
-3. Install Dependencies / Bağımlılıkları Yükleyin
+**3. Install Dependencies / Bağımlılıkları Yükleyin**
 ```bash
 pip install -r requirements.txt
 ```
 
 # Usage / Kullanım
-To run LeakPass Hunter on your project, follow the steps below: 
-*LeakPass Hunter'ı projeniz üzerinde çalıştırmak için aşağıdaki adımları izleyin*
+To run LeakPass Hunter on your project, follow the steps below:  *LeakPass Hunter'ı projeniz üzerinde çalıştırmak için aşağıdaki adımları izleyin*
 
 **Steps/Adımlar**
 
 1. Prepare Input Data; / *Giriş Verilerini Hazırlayın*
+
 —LeakPass Hunter requires the target application to be installed on an Android device (real or emulator).
 
 *LeakPass Hunter, hedef uygulamanın bir Android cihazda (gerçek veya emülatör) yüklü olmasını gerektirir*
@@ -95,7 +95,8 @@ To run LeakPass Hunter on your project, follow the steps below:
 
 *Cihazda Frida Server'ın çalıştığından emin olun.*
 
-2. Run the Script with Arguments: /*Betiği Argümanlarla Çalıştırın*
+2. Run the Script with Arguments: / *Betiği Argümanlarla Çalıştırın*
+
 * --target_package [app_package_name]: Specifies the package name of the app to analyze (e.g., com.example.vulnerableapp). This argument is mandatory.
 
 *target_package [uygulama_paket_adı]: Analiz edilecek uygulamanın paket adını belirtir (örn. com.example.vulnerableapp). Bu argüman zorunludur.*
@@ -108,7 +109,8 @@ To run LeakPass Hunter on your project, follow the steps below:
 
 *duration [saniye]: Analizin ne kadar süre çalışacağını belirtir (isteğe bağlı, varsayılan sınırsız).*
 
-3. Check the Output: /*Çıktıyı Kontrol Edin*
+3. Check the Output: / *Çıktıyı Kontrol Edin*
+
 —When the analysis is complete, detected passwords and related log information will be written to the specified output file (results.txt) or directly to the console.
 
 *Analiz tamamlandığında, tespit edilen parolalar ve ilgili log bilgileri belirtilen çıktı dosyasına (results.txt) veya doğrudan konsola yazdırılacaktır.*
@@ -117,10 +119,11 @@ To run LeakPass Hunter on your project, follow the steps below:
 
 *Her sızıntı kaydı, sızıntının bağlamı hakkında detaylı bilgi içerecektir.*
 
-#Acknowledgements / Teşekkürler
-—Frida: For dynamic instrumentation capabilities. / *Frida: Dinamik enstrümantasyon yetenekleri için.*
+# Acknowledgements / Teşekkürler
 
-—Python: For robust data analysis and scripting. / *Python: Sağlam veri analizi ve scriptleme için.*
+—Frida: For dynamic instrumentation capabilities.
+
+—Python: For robust data analysis and scripting. 
 
 
 
