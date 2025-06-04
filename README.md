@@ -1,9 +1,9 @@
-## LeakPass-Hunter
+# LeakPass-Hunter
 LeakPass Hunter is a project aimed at detecting sensitive data, especially passwords, that developers unintentionally log in Android applications in real-time. It continuously monitors the log output generated while the application is running; dynamic analysis and reverse engineering techniques are used to identify critical information such as passwords.
 
 *LeakPass Hunter, Android uygulamalarında geliştiricilerin istemeden logladığı hassas verileri, özellikle parolaları, gerçek zamanlı olarak tespit etmeye yönelik bir projedir. Uygulama çalışırken oluşan log çıktıları anlık olarak izlenir; parolalar gibi kritik bilgilerin tespiti için dinamik analiz ve tersine mühendislik teknikleri kullanılır.*
 
-# Project Objectives / Proje Amaçları
+## Project Objectives / Proje Amaçları
 —Detect sensitive data unintentionally logged in Android applications
 
 *Android uygulamalarında istemeden loglanan hassas verileri tespit etmek*
@@ -41,7 +41,7 @@ LeakPass Hunter is a project aimed at detecting sensitive data, especially passw
 
 *Hata Odaklı İnceleme: Geliştiricilerin hatalı parola işleme durumlarını analiz ederek, gerçek uygulamalardaki güvenlik sorunlarının bulunmasını kolaylaştırır.*
 
-# Team Members and Task Distribution / Ekip Üyeleri ve Görev Dağılımı
+## Team Members and Task Distribution / Ekip Üyeleri ve Görev Dağılımı
 
 * 2320191087 Ebru Gündoğdu
 
@@ -119,7 +119,7 @@ To run LeakPass Hunter on your project, follow the steps below:  *LeakPass Hunte
 
 *Her sızıntı kaydı, sızıntının bağlamı hakkında detaylı bilgi içerecektir.*
 
-# Acknowledgements / Teşekkürler
+## Acknowledgements / Teşekkürler
 
 —Frida: For dynamic instrumentation capabilities.
 
