@@ -5,6 +5,7 @@ LeakPass Hunter is a project aimed at detecting sensitive data, especially passw
 
 # Project Objectives / Proje Amaçları
 — Detect sensitive data unintentionally logged in Android applications
+
 *Android uygulamalarında istemeden loglanan hassas verileri tespit etmek*
 
 — Perform real-time data monitoring from Logcat, console outputs, and system log APIs
@@ -22,4 +23,29 @@ LeakPass Hunter is a project aimed at detecting sensitive data, especially passw
 — Help developers improve the security of their applications
 
 *Geliştiricilerin uygulama güvenliğini artırmalarına yardımcı olmak*
+
+#Features / Özellikler
+— Dynamic Log Monitoring: Hooks into in-app Logcat, console outputs, and system APIs that handle sensitive data (e.g., android.util.Log.d, java.io.PrintStream.println) in real time using Frida.
+
+*Dinamik Log Takibi: Frida kullanarak uygulama içindeki Logcat, konsol çıktıları ve hassas veriyi işleyen sistem API’lerine (örneğin android.util.Log.d, java.io.PrintStream.println) gerçek zamanlı olarak hook atar.*
+
+— Intelligent Password Detection: Analyzes captured strings using RegEx and heuristic analysis to automatically identify password-like expressions.
+
+*Akıllı Parola Tespiti: Yakalanan loglardaki string’leri RegEx ve sezgisel (heuristic) analiz kullanarak inceleyip, parolaya benzeyen ifadeleri otomatik olarak ayırır.*
+
+— Detailed Reporting: Clearly reports the source, timestamp, and related log message for each detected leak.
+
+*Detaylı Raporlama: Bulunan sızıntıların kaynağını, zamanını ve ilgili log mesajını açık ve anlaşılır şekilde raporlar.*
+
+— Error-Focused Analysis: Helps developers identify real security issues by analyzing improper password handling in actual applications.
+
+*Hata Odaklı İnceleme: Geliştiricilerin hatalı parola işleme durumlarını analiz ederek, gerçek uygulamalardaki güvenlik sorunlarının bulunmasını kolaylaştırır.*
+
+Team Members and Task Distribution / Ekip Üyeleri ve Görev Dağılımı
+*2320191087 Ebru Gündoğdu
+*2320191032 İrem Rabia Uzun 
+
+
+
+
 
