@@ -5,7 +5,6 @@ LeakPass Hunter is a project aimed at detecting sensitive data, especially passw
 
 # Project Objectives / Proje Amaçları
 — Detect sensitive data unintentionally logged in Android applications
-
 *Android uygulamalarında istemeden loglanan hassas verileri tespit etmek*
 
 — Perform real-time data monitoring from Logcat, console outputs, and system log APIs
