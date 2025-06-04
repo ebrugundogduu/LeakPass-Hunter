@@ -7,15 +7,20 @@ LeakPass Hunter is a project aimed at detecting sensitive data, especially passw
 — Detect sensitive data unintentionally logged in Android applications
 
 *Android uygulamalarında istemeden loglanan hassas verileri tespit etmek*
+
 — Perform real-time data monitoring from Logcat, console outputs, and system log APIs
 
 *Logcat, konsol çıktıları ve sistem log API’lerinden gerçek zamanlı veri takibi yapmak*
+
 — Capture in-app leaks instantly using dynamic instrumentation tools like Frida
 
 *Frida gibi dinamik enstrümantasyon araçlarıyla uygulama içi sızıntıları anlık olarak yakalamak*
+
 — Classify password-like expressions with a Python-based analysis module
 
 *Python tabanlı analiz modülü ile parolaya benzeyen ifadeleri sınıflandırmak*
+
 — Help developers improve the security of their applications
+
 *Geliştiricilerin uygulama güvenliğini artırmalarına yardımcı olmak*
 
