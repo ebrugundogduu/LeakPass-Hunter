@@ -1,4 +1,3 @@
-# password_detector.py
 
 import re
 
@@ -45,4 +44,4 @@ class PasswordDetector:
                 if len(potential_password) >= 6 and not self._is_blacklisted(potential_password):
                     found_passwords.append(potential_password)
 
-        return list(set(found_passwords))  # Tekrarları temizle
+        return list(set(found_passwords))  
